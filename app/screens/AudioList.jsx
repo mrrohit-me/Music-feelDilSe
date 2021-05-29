@@ -1,10 +1,12 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
+import AudioProvider from '../context/AudioProvider'
 
 export default function AudioList() {
     return (
         <View style={styles.container}>
             <Text>AudioList</Text>
+            <AudioProvider />
         </View>
     )
 }
